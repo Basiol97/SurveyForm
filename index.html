@@ -1,0 +1,200 @@
+<!DOCTYPE html> 
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>NerdBootcamp Survey Form</title>
+	  <link rel="stylesheet" href="coodcamp_Survey.css">
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald:wght@200&display=swap" rel="stylesheet">
+	</head>
+
+	<div class="bacbkgroundImg">
+		<body>
+			 <header class="Header">NerdBootcamp Survey Form</header>
+			 <p class="Description">Thank you for taking the time to help us improve the platform</p>
+			   <div class="container">
+
+			   	   
+				   	<div >
+				   		<label id="name-label" for="name" class="firstEmelentSpace"> Full name <p id = "nameError"></p> </label>
+                        <input type="text" name="name" id="namebo" class="boxDesign" placeholder="Enter your name" required> 
+				   	
+				   	</div>
+
+				   	<div >
+				   		<label id="email-label" for="Email" class="SpacinglabelAlign"> Email <p id = "EmailError"></p> </label>
+                        <input type="text" name="Email" id="Email" class="boxDesign" placeholder="Enter your Email" required> 
+				   	</div>
+
+				   	<div >
+                        <label id="Age-label" for="Age" class="SpacinglabelAlign"> Age (Optional) <p id="AgeError"> </p> <p id="AgeError2"></p> </label>
+                        <input type="text" name="Age" id="Age" class="boxDesign" placeholder="Age" required> 
+                    </div>
+
+                    <div >
+                        <label id="current-role-label" for="current-role" class="SpacinglabelAlign"> Which option best describes your current role? </label>
+
+                            <select>
+
+ 								<option value="" disabled selected hidden>Select an option...</option>
+	                        	<option>Student</option>
+	                        	<option>Full time leaner</option>
+	                        	<option>Prefer not to say</option>
+	                        	<option>Other</option>
+
+	                        </select>
+                    </div>
+
+					<div class="SpacinglabelAlign">
+						 
+				      <label> Would you recommend freeCodeCamp to a friend?</label>
+					        <div class="positionOption">
+						      <label>
+						        <input
+						          name="user-recommend"
+						          value="definitely"
+						          type="radio"
+						          class="input-radio"
+						          checked
+						        />Definitely</label>
+
+						      <label>
+						        <input
+						          name="user-recommend"
+						          value="maybe"
+						          type="radio"
+						          class="input-radio"
+						        />Maybe</label>
+
+						      <label
+						        ><input
+						          name="user-recommend"
+						          value="not-sure"
+						          type="radio"
+						          class="input-radio"
+						        />Not sure</label>
+                           </div>
+                    </div>
+
+
+
+
+                     <div >
+                        <label id="current-role-label" for="current-role" class="SpacinglabelAlign"> What is your favorite feature of freeCodeCamp?</label>
+
+                            <select>
+
+ 								<option value="" disabled selected hidden>Select an option...</option>
+	                        	<option>Challenges</option>
+	                        	<option>Projects</option>
+	                        	<option>Community</option>
+	                        	<option>Open source</option>
+								<option>Other</option>
+	                        </select>
+                    </div>
+
+
+                    <div class="SpacinglabelAlign" >
+						 
+				      <label> What would you like to see improved? (Check all that apply)</label>
+					        <div class="positionOption">
+						      <label>
+						        <input
+						          name="user-recommend"
+						          value="definitely"
+						          type="checkbox"
+						          class="input-radio"
+						          checked
+						        />Front-end Projects</label>
+
+						      <label>
+						        <input
+						          name="user-recommend"
+						          value="maybe"
+						          type="checkbox"
+						          class="input-radio"
+						        />Back-end Projects</label>
+
+						      <label>
+						        <input
+						          name="user-recommend"
+						          value="maybe"
+						          type="checkbox"
+						          class="input-radio"
+						        />Data Visualization</label>
+
+						       <label>
+						        <input
+						          name="user-recommend"
+						          value="not-sure"
+						          type="checkbox"
+						          class="input-radio"
+						        />Challenges</label>
+
+						       <label>
+						        <input
+						          name="user-recommend"
+						          value="not-sure"
+						          type="checkbox"
+						          class="input-radio"
+						        />Open Source Community</label>
+
+
+						        <label>
+						        <input
+						          name="user-recommend"
+						          value="not-sure"
+						          type="checkbox"
+						          class="input-radio"
+						        />Gitter help rooms</label>
+
+
+						        <label>
+						        <input
+						          name="user-recommend"
+						          value="not-sure"
+						          type="checkbox"
+						          class="input-radio"
+						        />City Meetups</label>
+                           </div>
+                    </div>
+
+
+                    <div >
+
+	                    <label id="Comments" class="SpacinglabelAlign"> Any comments or suggestions? </label>
+						<textarea style="width: 78.5%;" name = "Comments" rows="6" cols="46" class="textares_comments" placeholder="Comments or suggestions?" ></textarea>
+	                    
+	                </div>
+
+	                <div>
+                    	
+						<input id = "submit" type="submit" name="submit" class="submitButton" >   
+	                </div>
+
+			  </div>
+            <script type="text/javascript" src="validate.js"></script>
+		</body>
+</div>
+
+	                
+
+	               
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
