@@ -28,7 +28,7 @@ function valdiateName() {
 	
   for (var i=0; i < nameValue.length; i++) { 
       //Check name is entered correctly
-      var alpha = "-abcdefghijklmnopqrstuvwxyz'ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      var alpha = " -abcdefghijklmnopqrstuvwxyz'ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	  if (alpha.indexOf(nameValue[i]) === -1) 
 
 		{
